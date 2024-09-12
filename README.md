@@ -38,9 +38,9 @@ npx prisma init
 ```
 
 ✔ Your Prisma schema was created at prisma/schema.prisma
-  You can now open it in your favorite editor.
+  You can now open it in Visual Studio Code
 
-warn You already have a .gitignore file. Don't forget to add `.env` in it to not commit any private information.
+warn Don't forget to add `.env` and anything with `.env` in its name to the `.gitignore` to not commit any private information.
 
 Next steps:
 1. Set the DATABASE_URL in the .env file to point to your existing database. If your database has no tables yet, read https://pris.ly/d/getting-started
@@ -54,3 +54,9 @@ https://pris.ly/d/getting-started
 
 ### SQLite Install
 Go to `https://sqlite.org/download.html` and download the **SQLite Bundle** for Windows if your machine is 64-bit (otherwise use the 32-bit version). If you are running a Mac, CTRL + F "Bundle" and install that. 
+
+### npm i
+Run this command when you're finished
+```bash
+npm i
+```
